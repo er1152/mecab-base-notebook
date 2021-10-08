@@ -14,6 +14,5 @@ RUN git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git
 RUN mecab-ipadic-neologd/bin/install-mecab-ipadic-neologd -y
 
 
-RUN pip install mecab-python3 gensim scikit-learn pandas numpy matplotlib seaborn
+RUN pip install mecab-python3 gensim scikit-learn pandas numpy matplotlib seaborn python-telegram-bot==12.0.0
 
-#https://qiita.com/rasyo/items/9756b1a7bb739bec319a
